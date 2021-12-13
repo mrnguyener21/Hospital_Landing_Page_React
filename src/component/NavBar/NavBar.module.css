@@ -1,10 +1,66 @@
-/* .navBarLinks{
-    border: solid;
-    display: flex;
-    justify-content: space-around;
+.navBar{
+    /* border:solid; */
+    padding: 1% 15%;
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    color:#0061A8;
+    font-size: 50px;
 }
 
-.link{
-    border: solid;
+.searchAndLoginContainer{
+    width:45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #0061A8;
+}
+
+.navBarLink:hover{
+    cursor:pointer;
+}
+
+.searchContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width:30%;
+}
+
+.searchButton{
+    width:15%;
+}
+
+.searchImage{
     border-color: blue;
-} */
+    width:100%;
+}
+
+.searchImage:hover{
+    cursor:pointer;
+}
+
+.logInContainer{
+    width:10%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.logInImage{
+    width:50%
+}
+
+.logInImage:hover{
+    cursor:pointer;
+}
+
+.logInText:hover{
+    cursor:pointer;
+}
+
+.hamburgerMenu{
+    display: none;
+}
