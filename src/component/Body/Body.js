@@ -1,9 +1,15 @@
 import styles from './Body.module.css'
 
-const Body = () => {
+const Body = ({serviceCards}) => {
     return (
-        <div>
-            Body
+        <div className={styles.card}>
+            {serviceCards.map((card) =>
+                <>
+                <h1>{card.description}</h1>
+                <button>{card.button}</button>
+                </>
+                
+            )}
         </div>
     )
 }
