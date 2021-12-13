@@ -1,0 +1,18 @@
+export const images = {
+    careCenter: require('./CareCenter.svg').default,
+    chatBox: require('./chatbox.svg').default,
+    covid19: require('./Covid19.svg').default,
+    emergencyServices: require('./Emergency Services.svg').default,
+    envelope: require('./envelope.svg').default,
+    facebook: require('./facebook.svg').default,
+    hamburgerMenu: require('./hamburgerMenu.svg').default,
+    heart: require('./heart.svg').default,
+    heartCare: require('./HeartCare.svg').default,
+    linkedin: require('./linkedin.svg').default,
+    logIn: require('./logIn.svg').default,
+    magnifyingGlass: require('./magnifyingGlass.svg').default,
+    mainBodyImage: require('./MainBodyImage.svg').default,
+    Maternity: require('./Maternity.svg').default,
+    orthopedicServices: require('./Orthopedic Services.svg').default,
+    twitter: require('./twitter.svg').default,
+}
