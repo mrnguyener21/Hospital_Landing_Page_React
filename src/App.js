@@ -1,10 +1,14 @@
 import React from 'react';
+import NavBar from './component/NavBar'
+import Body from './component/Body'
+import Footer from './component/Footer'
 const App = () => {
   return (
     <div className="App">
-     <h1>
-       test
-     </h1>
+      <NavBar />
+      <Body />
+      <Footer />
+ 
     </div>
   );
 }
