@@ -3,7 +3,7 @@ import {NavBar, Body, Footer} from './component'
 import {navBarLinks, serviceCards, footerLinks} from './data'
 
 const navBarLink = navBarLinks
-console.log(navBarLink)
+// console.log(navBarLink)
 
 
 const App = () => {

@@ -1,10 +1,10 @@
 import styles from './NavBar.module.css'
 
-const NavBar = ({navBarLink}) => {
-    console.log(...navBarLink)
+const NavBar = ({navBarLinks}) => {
+    console.log(navBarLinks)
     return (
-        <div>
-            hello
+        <div className={styles.navBarLinks}>
+            {navBarLinks}
         </div>
     )
 }
