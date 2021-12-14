@@ -1,8 +1,9 @@
 import React  from 'react';
 import {NavBar, Body, Footer} from './component'
 import {navBarLinks, serviceCards, footerLinks} from './data'
-// import magnifyingGlass from './images/magnifyingGlass.svg'
 import { images } from './images';
+import styles from './App.module.css';
+
 const App = () => {
 
   return (
