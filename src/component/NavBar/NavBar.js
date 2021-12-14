@@ -6,10 +6,10 @@ const NavBar = ({navBarLinks, images:{magnifyingGlass, logIn, hamburgerMenu}}) =
         <div className={styles.navBar}>
             <h1 className={styles.logo}>PROJECT HOSPITAL</h1>
 
-            <div className={styles.navBarLinksContainer}>
-                {navBarLinks.map(navBarLink => <h1 className={styles.navBarLink}>{navBarLink}</h1>)}
-            </div>
+            {/* <div className={styles.navBarLinksContainer}>
+            </div> */}
             <div className={styles.searchAndLoginContainer}>
+                {navBarLinks.map(navBarLink => <h3 className={styles.navBarLink}>{navBarLink}</h3>)}
                 <div className={styles.searchContainer}>
                     <input type="text" placeholder="Search..." className={styles.searchBar}/>
                     <button type='button' className={styles.searchButton}>
