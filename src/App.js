@@ -11,7 +11,7 @@ const App = () => {
       <NavBar navBarLinks={navBarLinks} images={images}/>
       <Welcome images={images}/>
       <Body serviceCards={serviceCards}/>
-      <Footer footerLinks={footerLinks} />
+      <Footer footerLinks={footerLinks} images={images} />
 
  
     </div>
