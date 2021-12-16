@@ -1,3 +1,150 @@
-/* .envelope{
+.resourceSection{
+    /* padding: 2% 15%; */
+    /* border: solid; */
+    border-color: black;
+    background-color: #0061A8;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftResourceContainer{
+    width:40%;
+}
+
+.emailContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.emailButton{
+    background-color: #0061A8;
+    border: none;
+    color: white;
+    padding: 15px 25px 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 20px;
+    font-weight:bold;
+    align-items: center;
+
+}
+
+.emailButton:hover{
+    cursor:pointer;
+}
+
+.emailButtonMobile{
+    display:none;
+    background-color: #0061A8;
     border: solid;
-} */
+    color: white;
+    padding: 15px 25px 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    /* display: flex; */
+    font-size: 20px;
+    font-weight:bold;
+    align-items: center;
+
+}
+
+.emailButtonMobile:hover{
+    cursor:pointer;
+}
+
+.emailImage{
+/* border: dotted; */
+/* border-color: red; */
+color: green;
+width:5%;
+margin-right: 2%;
+}
+
+.socialMediaContainer{
+    height:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.socialMediaTitle:hover{
+    cursor:default;
+}
+
+.socialMediaImage{
+    width:5%;
+    margin-right:2%;
+    /* border: solid; */
+}
+
+.socialMediaImage:hover{
+    cursor:pointer;
+}
+
+.disclaimer:hover{
+    cursor:default;
+}
+
+.rightResourceContainer{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.companyTitle{
+    margin-top:0;
+}
+
+.companyTitle:hover{
+    cursor: default;
+}
+
+.companyLink{
+    margin:20px 0;
+}
+
+.companyLink:hover{
+    cursor: pointer;
+}
+
+.servicesTitle{
+    margin-top:0;
+}
+
+.servicesTitle:hover{
+    cursor: default;
+}
+
+.servicesLink{
+    margin:20px 0;
+}
+
+.servicesLink:hover{
+    cursor: pointer;
+}
+
+.resourcesTitle{
+    margin-top:0;
+}
+.resourcesTitle:hover{
+    cursor: default;
+}
+.resourcesLink{
+    margin:20px 0;
+}
+
+.resourcesLink:hover{
+    cursor: pointer;
+}
+
+.bottomDisclaimer{
+    display: none;
+}
+
+.bottomDisclaimer:hover{
+    cursor:default;
+}
