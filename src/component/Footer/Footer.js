@@ -6,7 +6,7 @@ const Footer = ({footerLinks, images:{envelope, facebook, linkedin, twitter}}) =
         <div className={styles.leftResourceCotainer}>
             <div className={styles.emailContainer}>
                 <button type='button' className={styles.emailButton}>
-                    <img src = {envelope} alt={"envelope SVG"} className='emailImage'/>
+                    <img src = {envelope} alt={"envelope SVG"} className={styles.emailImage}/>
                     GET EMAIL UPDATES  -  Stay up to date with us
                 </button>
                 <button type='button' className={styles.emailButtonMobile}>
@@ -29,9 +29,8 @@ const Footer = ({footerLinks, images:{envelope, facebook, linkedin, twitter}}) =
         <div className={styles.srightResourceContainer}> 
             {footerLinks.map(({links, title}) =>
                 <div className={styles.footerLinksContainer}>
-                    <h3>{title}</h3>
-                    {console.log(title)}
-                    <div>{links}</div>
+                    <h3 className={styles.footerLinktitle}>{title}</h3>
+                    <div className={styles.footerLink}>{links}</div>
                 </div>
             )}
 
