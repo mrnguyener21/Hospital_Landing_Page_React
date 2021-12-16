@@ -9,7 +9,7 @@ const Footer = ({footerLinks, images:{envelope, facebook, linkedin, twitter}}) =
                     <img src = {envelope} alt={"envelope SVG"} className='emailImage'/>
                     GET EMAIL UPDATES  -  Stay up to date with us
                 </button>
-                <button type='button' className='emailButtonMobile'>
+                <button type='button' className={styles.emailButtonMobile}>
                     <img src = {envelope} alt="envelope SVG" className={styles.emailImage}/>
                     GET EMAIL UPDATES
                 </button>
@@ -26,8 +26,17 @@ const Footer = ({footerLinks, images:{envelope, facebook, linkedin, twitter}}) =
                 *disclaimer:This is a web project and is not an actual hospital. Inspiration for design came from the following: wellapp.com, dignityhealth.org
             </div>
         </div>
-        <div className='rightResourceContainer'> {/*update this section with the footerlinks props*/}
-            <div className='companyContainer'>
+        <div className={styles.srightResourceContainer}> 
+            {footerLinks.map(({links, title}) =>
+                <div className={styles.footerLinksContainer}>
+                    <h3>{title}</h3>
+                    {console.log(title)}
+                    <div>{links}</div>
+                </div>
+            )}
+
+
+            {/* <div className='companyContainer'>
                 <h3 className='companyTitle'>COMPANY</h3>
                 <div className='companyLink'>Careers</div>
                 <div className='companyLink'>Partners & Integrations</div>
@@ -52,9 +61,9 @@ const Footer = ({footerLinks, images:{envelope, facebook, linkedin, twitter}}) =
                 <div className='resourcesLink'>White Papers</div>
                 <div className='resourcesLink'>Blog</div>
                 <div className='resourcesLink'>Newsroom</div>
-            </div>
+            </div> */}
         </div>
-        <div className='bottomDisclaimer'>
+        <div className={styles.bottomDisclaimer}>
         *disclaimer:This is a web project and is not an actual hospital. Inspiration for design came from the following: wellapp.com, dignityhealth.org
         </div>
     </div>
