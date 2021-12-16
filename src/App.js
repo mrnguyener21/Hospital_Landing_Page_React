@@ -13,7 +13,7 @@ const App = () => {
       <Body serviceCards={serviceCards}/>
       <Footer footerLinks={footerLinks} images={images} />
 
- 
+
     </div>
   );
 }
