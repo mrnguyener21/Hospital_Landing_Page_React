@@ -33,34 +33,6 @@ const Footer = ({footerLinks, images:{envelope, facebook, linkedin, twitter}}) =
                     <div className={styles.footerLink}>{links}</div>
                 </div>
             )}
-
-
-            {/* <div className='companyContainer'>
-                <h3 className='companyTitle'>COMPANY</h3>
-                <div className='companyLink'>Careers</div>
-                <div className='companyLink'>Partners & Integrations</div>
-                <div className='companyLink'>About Us</div>
-                <div className='companyLink'>Leadership</div>
-                <div className='companyLink'>Support</div>
-                <div className='companyLink'>Contact Us</div>
-                <div className='companyLink'>News</div>
-            </div>
-            <div className='servicesContainer'>
-                <h3 className='servicesTitle'>SERVICES</h3>
-                <div className='servicesLink'>Care Center</div>
-                <div className='servicesLink'>Emergency Services</div>
-                <div className='servicesLink'>Heart Care</div>
-                <div className='servicesLink'>Maternity</div>
-                <div className='servicesLink'>Orthpedic Services</div>
-                <div className='servicesLink'>Covid-19</div>
-            </div>
-            <div className='resourcesContainer'>
-                <h3 className='resourcesTitle'>RESOURCES</h3>
-                <div className='resourcesLink'>Case Studies</div>
-                <div className='resourcesLink'>White Papers</div>
-                <div className='resourcesLink'>Blog</div>
-                <div className='resourcesLink'>Newsroom</div>
-            </div> */}
         </div>
         <div className={styles.bottomDisclaimer}>
         *disclaimer:This is a web project and is not an actual hospital. Inspiration for design came from the following: wellapp.com, dignityhealth.org
