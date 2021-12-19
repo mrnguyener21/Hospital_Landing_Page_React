@@ -48,3 +48,5 @@ export const footerLinks = [
         links: ['Case Studies', 'White Papers','Blog','Newsroom']
     }
 ]
+
+export const socialMediaImages = [images.facebook, images.linkedin,images.twitter]
