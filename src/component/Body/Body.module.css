@@ -1,0 +1,64 @@
+.cardSection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3% 5%;
+}
+
+.cardTitle{
+    font-size: 40px;
+    color: #0061A8;
+}
+
+.cardTitle:hover{
+    cursor:default;
+}
+
+.cardContainer{
+    border-color: blue;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:15%;
+    margin:3% 7%;
+}
+
+.cardImage{
+    width:100%;
+    margin-bottom: 25%;
+}
+
+.cardDescription{
+    border-color: blue;
+    display: flex;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.cardDescription:hover{
+    cursor:default;
+}
+
+.cardButton{
+    background-color: #0061A8; 
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.cardButton:hover{
+    cursor:pointer;
+}
