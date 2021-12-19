@@ -1,6 +1,6 @@
 import styles from './Footer.module.css'
 
-const Footer = ({footerLinks, images:{envelope, facebook, linkedin, twitter}}) => {
+const Footer = ({footerLinks,socialMediaImages, images:{envelope}}) => {
     return (
         <div className={styles.resourceSection}>
         <div className={styles.leftResourceCotainer}>
@@ -17,9 +17,9 @@ const Footer = ({footerLinks, images:{envelope, facebook, linkedin, twitter}}) =
             <div className={styles.socialMediaContainer}>
                 <h2 className={styles.ssocialMediaTitle}>Connect with us on Social Media</h2>
                 <div className={styles.socialMediaImageContainer}>
-                    <img src = {facebook} alt={"facebook SVG"} className={styles.socialMediaImage}/>
-                    <img src = {linkedin} alt={"linkedin SVG"} className={styles.socialMediaImage}/>
-                    <img src = {twitter} alt={"twitter SVG"} className={styles.socialMediaImage}/>
+                    {socialMediaImages.map((socialMediaImage) => 
+                        <img src = {socialMediaImage} alt={"social media symbols SVG"} className={styles.socialMediaImage}/>                    
+                    )}
                 </div>
             </div>
             <div className={styles.disclaimer}>

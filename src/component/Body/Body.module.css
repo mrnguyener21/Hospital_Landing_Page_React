@@ -41,6 +41,8 @@
     display: flex;
     text-align: center;
     margin-bottom: 10%;
+    /* border: solid; */
+    font-size: 100%;
 }
 
 .cardDescription:hover{
