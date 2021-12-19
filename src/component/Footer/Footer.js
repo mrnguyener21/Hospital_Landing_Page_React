@@ -26,7 +26,7 @@ const Footer = ({footerLinks,socialMediaImages, images:{envelope}}) => {
                 *disclaimer:This is a web project and is not an actual hospital. Inspiration for design came from the following: wellapp.com, dignityhealth.org
             </div>
         </div>
-        <div className={styles.srightResourceContainer}> 
+        <div className={styles.rightResourceContainer}> 
             {footerLinks.map(({links, title}) =>
                 <div className={styles.footerLinksContainer}>
                     <h3 className={styles.footerLinktitle}>{title}</h3>
