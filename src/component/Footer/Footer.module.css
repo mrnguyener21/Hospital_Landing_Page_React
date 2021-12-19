@@ -93,51 +93,28 @@ margin-right: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: solid;
+    border-color: red;
 }
 
-.companyTitle{
+.footerLinksContainer{
+    border: solid;
+    border-color: green;
+}
+
+.footerLinkTitle{
     margin-top:0;
 }
 
-.companyTitle:hover{
+.footerLinkTitle:hover{
     cursor: default;
 }
 
-.companyLink{
+.footerLink{
     margin:20px 0;
 }
 
-.companyLink:hover{
-    cursor: pointer;
-}
-
-.servicesTitle{
-    margin-top:0;
-}
-
-.servicesTitle:hover{
-    cursor: default;
-}
-
-.servicesLink{
-    margin:20px 0;
-}
-
-.servicesLink:hover{
-    cursor: pointer;
-}
-
-.resourcesTitle{
-    margin-top:0;
-}
-.resourcesTitle:hover{
-    cursor: default;
-}
-.resourcesLink{
-    margin:20px 0;
-}
-
-.resourcesLink:hover{
+.footerLink:hover{
     cursor: pointer;
 }
 
