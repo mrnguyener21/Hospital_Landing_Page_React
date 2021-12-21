@@ -1,7 +1,6 @@
 import styles from './NavBar.module.css'
 
 const NavBar = ({navBarLinks, images:{magnifyingGlass, logIn, hamburgerMenu}}) => {
-    console.log(navBarLinks)
     return (
         <div className={styles.navBar}>
             <h1 className={styles.logo}>PROJECT HOSPITAL</h1>
