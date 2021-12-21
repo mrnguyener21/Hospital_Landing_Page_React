@@ -29,10 +29,11 @@ const Footer = ({footerLinks,socialMediaImages, images:{envelope}}) => {
         <div className={styles.rightResourceContainer}> 
             {footerLinks.map(({links, title}) =>
                 <div className={styles.footerLinksContainer}>
-                    <h3 className={styles.footerLinktitle}>{title}</h3>
-                    <div className={styles.footerLink}>{links}</div>
+                    <h3 className={styles.footerLinkTitle}>{title}</h3>
+                    {links.map((link) => <div className={styles.footerLink}>{link}</div>)}
                 </div>
             )}
+        {/* {console.log(footerLinks[0].links)} */}
         </div>
         <div className={styles.bottomDisclaimer}>
         *disclaimer:This is a web project and is not an actual hospital. Inspiration for design came from the following: wellapp.com, dignityhealth.org

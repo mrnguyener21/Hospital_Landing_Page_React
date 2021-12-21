@@ -1,6 +1,5 @@
 import styles from './Body.module.css'
 const Body = ({serviceCards}) => {
-    console.log(serviceCards);
     return (
         <div className={styles.cardSection}>
             <h1 className={styles.cardTitle}>Services We Offer</h1>

@@ -91,27 +91,43 @@ margin-right: 2%;
 .rightResourceContainer{
     width:50%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     border: solid;
+    /* flex-direction: row; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* border: solid; */
     border-color: red;
 }
 
 .footerLinksContainer{
     border: solid;
     border-color: green;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
 }
 
 .footerLinkTitle{
     margin-top:0;
+    /* border: solids */
+    /* border-color: orange; */
 }
 
 .footerLinkTitle:hover{
-    cursor: default;
+    cursor: pointer;
 }
 
 .footerLink{
-    margin:20px 0;
+    border: solid;
+    /* columns: 7; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center;  */
+    /* flex-direction: column; */
+    /* padding: 10%; */
+    /* margin:20px 0; */
+    height: 100%;
 }
 
 .footerLink:hover{
