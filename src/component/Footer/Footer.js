@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 const Footer = ({footerLinks,socialMediaImages, images:{envelope}}) => {
     return (
         <div className={styles.resourceSection}>
-        <div className={styles.leftResourceCotainer}>
+        <div className={styles.leftResourceContainer}>
             <div className={styles.emailContainer}>
                 <button type='button' className={styles.emailButton}>
                     <img src = {envelope} alt={"envelope SVG"} className={styles.emailImage}/>
@@ -29,8 +29,10 @@ const Footer = ({footerLinks,socialMediaImages, images:{envelope}}) => {
         <div className={styles.rightResourceContainer}> 
             {footerLinks.map(({links, title}) =>
                 <div className={styles.footerLinksContainer}>
+                    <div className={styles.footerLinkCard}>
                     <h3 className={styles.footerLinkTitle}>{title}</h3>
-                    {links.map((link) => <div className={styles.footerLink}>{link}</div>)}
+                        {links.map((link) => <div className={styles.footerLink}>{link}</div>)}
+                    </div>
                 </div>
             )}
         {/* {console.log(footerLinks[0].links)} */}

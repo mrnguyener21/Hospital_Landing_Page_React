@@ -1,6 +1,5 @@
 .resourceSection{
-    /* padding: 2% 15%; */
-    /* border: solid; */
+    padding: 2% 15%;
     border-color: black;
     background-color: #0061A8;
     color: white;
@@ -44,7 +43,6 @@
     padding: 15px 25px 15px 0px;
     text-align: center;
     text-decoration: none;
-    /* display: flex; */
     font-size: 20px;
     font-weight:bold;
     align-items: center;
@@ -56,8 +54,6 @@
 }
 
 .emailImage{
-/* border: dotted; */
-/* border-color: red; */
 color: green;
 width:5%;
 margin-right: 2%;
@@ -91,27 +87,18 @@ margin-right: 2%;
 .rightResourceContainer{
     width:50%;
     display: flex;
-    border: solid;
-    /* flex-direction: row; */
-    /* justify-content: flex-start; */
-    /* align-items: center; */
-    /* border: solid; */
     border-color: red;
 }
 
 .footerLinksContainer{
-    border: solid;
-    border-color: green;
+    width: 100%;
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
+    align-items: flex-end;
     flex-direction: column;
 }
 
 .footerLinkTitle{
     margin-top:0;
-    /* border: solids */
-    /* border-color: orange; */
 }
 
 .footerLinkTitle:hover{
@@ -119,15 +106,7 @@ margin-right: 2%;
 }
 
 .footerLink{
-    border: solid;
-    /* columns: 7; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center;  */
-    /* flex-direction: column; */
-    /* padding: 10%; */
-    /* margin:20px 0; */
-    height: 100%;
+    padding-bottom: 10%;
 }
 
 .footerLink:hover{
